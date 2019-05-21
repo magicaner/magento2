@@ -1,0 +1,20 @@
+<!--
+/**
+ * @copyright Copyright (c) Gorilla, Inc. (https://www.gorillagroup.com)
+ */
+-->
+<table name="gorilla_marketplace_vendor" resource="default" engine="innodb"
+       comment="Marketpalce Vendor Entities">
+    <column xsi:type="int" name="entity_id" padding="11" unsigned="true" nullable="false" identity="true" comment="Entity ID"/>
+    <column xsi:type="int" name="primary_customer_id" padding="11" unsigned="true" nullable="false" comment="Primary Customer ID"/>
+    <column xsi:type="varchar" name="name" length="255" nullable="true" comment="Name"/>
+    <column xsi:type="varchar" name="logo" length="255" nullable="true" comment="Logo Image"/>
+    <column xsi:type="text" name="desciption" nullable="true" comment="Description"/>
+    <column xsi:type="varchar" name="address" length="255" nullable="true" comment="Address"/>
+    <column xsi:type="varchar" name="city" length="255" nullable="true" comment="City"/>
+    <column xsi:type="varchar" name="zip" length="20" nullable="true" comment="Zip"/>
+
+    <constraint xsi:type="primary" referenceId="PRIMARY">
+        <column name="entity_id"/>
+    </constraint>
+</table>
