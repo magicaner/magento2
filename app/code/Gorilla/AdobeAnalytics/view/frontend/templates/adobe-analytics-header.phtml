@@ -1,0 +1,22 @@
+<?php
+/**
+ * @copyright Copyright (c) Gorilla, Inc. (https://www.gorillagroup.com)
+ */
+
+// @codingStandardsIgnoreFile
+/** @var $block \Gorilla\AdobeAnalytics\Block\AdobeAnalytics */
+
+$accountId = $block->getAccountId();
+$property = $block->getProperty();
+?>
+<!-- BEGIN ADOBE ANALYTICS CODE -->
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Gorilla_AdobeAnalytics/js/adobe-analytics": {
+
+        }
+    }
+}
+</script>
+<!-- END ADOBE ANALYTICS CODE -->

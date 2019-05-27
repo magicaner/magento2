@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Copyright (c) Gorilla, Inc. (https://www.gorillagroup.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Gorilla_Analytics::admin" title="Gorilla Adobe Analytics">
+            </resource>
+        </resources>
+    </acl>
+</config>
