@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Copyright (c) Gorilla, Inc. (https://www.gorillagroup.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Gorilla_Marketplace::all" title="Marketplace" module="Gorilla_Marketplace" sortOrder="50" resource="Gorilla_Marketplace::all"/>
+        <add id="Gorilla_Marketplace::vendors" title="Marketplace Vendors" module="Gorilla_Marketplace" sortOrder="10" action="gorilla_marketplace/vendor/index" resource="Gorilla_Marketplace::all" parent="Gorilla_Marketplace::all"/>
+    </menu>
+</config>

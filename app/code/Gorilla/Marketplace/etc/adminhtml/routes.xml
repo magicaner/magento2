@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Copyright (c) Gorilla, Inc. (https://www.gorillagroup.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="gorilla_marketplace" frontName="gorilla_marketplace">
+            <module name="Gorilla_Marketplace" before="Magento_Backend" />
+        </route>
+    </router>
+</config>
