@@ -17,7 +17,7 @@
         <column xsi:type="varchar" name="city" length="255" nullable="true" comment="City"/>
         <column xsi:type="varchar" name="zip" length="20" nullable="true" comment="Zip"/>
 
-        <constraint xsi:type="primary" referenceId="PRIMARY">
+        <constraint xsi:type="primary" name="PRIMARY">
             <column name="entity_id"/>
         </constraint>
     </table>
