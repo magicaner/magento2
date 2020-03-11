@@ -83,4 +83,15 @@ class Form extends AbstractComponent
         }
         return $dataSource;
     }
+
+    /**
+     * Render component
+     *
+     * @return string
+     */
+    public function render()
+    {
+        $result = $this->getContext()->getRenderEngine()->render($this, $this->getTemplate());
+        return $result;
+    }
 }

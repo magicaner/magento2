@@ -5,6 +5,16 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\App\AreaList">
+        <arguments>
+            <argument name="areas" xsi:type="array">
+                <item name="vendor" xsi:type="array">
+                    <item name="frontNameResolver" xsi:type="string">Magento\Backend\App\Area\FrontNameResolver</item>
+                    <item name="router" xsi:type="string">vendor</item>
+                </item>
+            </argument>
+        </arguments>
+    </type>
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">
