@@ -1,1 +1,0 @@
-Module `LaunchTheme` introduces Adobe Launch Tag management capabilities to every page loaded on the frontend.

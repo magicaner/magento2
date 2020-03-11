@@ -1,1 +1,0 @@
-Module `LaunchCheckout` introduces Adobe Launch Tag management capabilities to the `Checkout` module.
