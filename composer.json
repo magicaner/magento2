@@ -10,6 +10,12 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@gitlab.com:magicaner/custom-catalog.git"
+        }
+    ],
     "require": {
         "php": "~7.1.3||~7.2.0||~7.3.0",
         "ext-bcmath": "*",
